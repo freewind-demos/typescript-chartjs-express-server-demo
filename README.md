@@ -1,5 +1,5 @@
-TypeScript Chart.js Demo
-========================
+TypeScript Chart.js by Express Server Demo
+==========================================
 
 ```
 npm install

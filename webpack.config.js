@@ -2,7 +2,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
   mode: 'development',
-  entry: './index.ts',
+  entry: './client.ts',
   devtool: 'inline-source-map',
   output: {
     path: __dirname,
@@ -19,10 +19,5 @@ module.exports = {
         exclude: /node_modules/
       }
     ]
-  },
-  plugins: [
-    new HtmlWebpackPlugin({
-      template: "index.html"
-    })
-  ]
+  }
 };
